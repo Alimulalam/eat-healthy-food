@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.container-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 50px;
+
+
+}
+
+.area1 {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    font-size: 2.6rem;
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+}
+
+.top-header {
+    width: 50%;
+}
+
+.top-header h3 span {
+    color: #FF2D00;
+}
+
+.top-header img {
+    width: 80%;
+
+}
+
+.top-header p {
+    font-size: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+    padding-right: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.button {
+    color: white;
+    background-image: linear-gradient(45deg, red, orange);
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+
+.area2 {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.recipe-area {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.recipe {
+    text-align: center;
+    padding: 40px 40px 0px 40px;
+}
+
+.recipe h3 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.recipe p {
+    font-size: 1.2rem;
+    padding: 0px 50px;
+    line-height: 1.5;
+
+}
+
+.recipe-box {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0px 15px;
+    padding: 30px;
+    box-shadow: 10px 20px 40px rgb(31, 25, 25, 0.5);
+
+
+}
+
+.recipe-box p {
+    padding-bottom: -40px !important;
+}
+
+.recipe-box img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 100%; */
+    padding: 50px 50px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 20px 40px rgb(31, 25, 25, 0.5);
+}
+
+.footer {
+    background-color: #F53456;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2;
+}
+
+.footer h3 span {
+    color: yellow;
+}
+
+.footer p {
+    color: white;
+}
